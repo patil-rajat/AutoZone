@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="New car suggesting website">
+    <title>Looking4car</title>
+
+    <!-- changed from .. to /xyz -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheet/buy.css" rel="stylesheet">
+  <script src="/script/preloader.js"></script>
+  </head>
+
+ 
+  <body>
+    <div id="preloader"></div>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div style="color: white;">
+          <h2 class="float-md-start mb-0">Looking4car</h2>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="<%= homeLink %>"  style="color: white;">Home</a>
+            <a class="nav-link" href="<%= topPicksLink %>"  style="color: white;">Top Picks</a>
+            <a class="nav-link" href="<%= buyLink %>"  style="color: white;">Buy</a>
+            <a class="nav-link" href="<%= sellLink %>"  style="color: white;">Sell</a>
+          </nav>
+        </div>
+      </header>
+ <div class="container px-4 py-5" id="custom-cards">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/md.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">Micro</h2>
+            <a href="msd.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/hd.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">Sedan</h2>
+            <a href="hd.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/hyd.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">Hatchback</h2>
+            <a href="hyd.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="custom-cards">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/td.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">SUV</h2>
+            <a href="td.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/mad.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">Crossover</h2>
+            <a href="md.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('../images/vd.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1" style="opacity: 80%;">Luxury</h2>
+            <a href="vd.html" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

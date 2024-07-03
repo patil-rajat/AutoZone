@@ -1,0 +1,63 @@
+
+body {
+    background-image: url(../images/road\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1917px  997px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.cover-container {
+  max-width: 90em;
+}
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 2rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: rgb(255, 255, 255);
+}
+
+#preloader{
+  background: white url(../images/pre2.gif) no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

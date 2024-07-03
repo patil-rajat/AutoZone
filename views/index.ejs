@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Buy and Sell Cars">
+    <title>Looking4car</title>
+
+    <!-- changed from .. to /xyz -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheet/index.css" rel="stylesheet">
+  <script src="/script/preloader.js"></script>
+  </head>
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+  <div id="preloader"></div>
+
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div style="color: white;">
+      <h2 class="float-md-start mb-0">Looking4car</h2>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="<%= homeLink %>"  style="color: white;">Home</a>
+        <a class="nav-link" href="<%= topPicksLink %>"  style="color: white;">Top Picks</a>
+        <a class="nav-link" href="<%= buyLink %>"  style="color: white;">Buy</a>
+        <a class="nav-link" href="<%= sellLink %>"  style="color: white;">Sell</a>
+      </nav>
+    </div>
+  </header>
+  <main class="px-3" style="padding-bottom: 3%;">
+    <h1>Welcome</h1>
+    <p class="lead" style="color: rgb(255, 255, 255);">Find your Travelling Companion!</p>
+      <a href="buy.ejs" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Start your Journey</a>
+    </p>
+  </main>  
+  </div> 
+  </body>
+</html>

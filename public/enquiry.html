@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Buy and Sell Cars">
+    <title>Looking4car</title>
+
+    <!-- changed from .. to /xyz -->
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/stylesheet/enquiry.css" rel="stylesheet">
+  <script src="/script/preloader.js"></script>
+  <script src="/script/enquiry.js"></script>
+  </head>
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+  <div id="preloader"></div>
+
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div style="color: white;">
+      <h2 class="float-md-start mb-0">Looking4car</h2>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" aria-current="page" href="index.html"  style="color: white;">Home</a>
+        <a class="nav-link" href="toppicks.html"  style="color: white;">Top Picks</a>
+        <a class="nav-link active" href="enquiry.html"  style="color: white;">Buy</a>
+        <a class="nav-link" href="sell.html"  style="color: white;">Sell</a>
+      </nav>
+    </div>
+  </header>
+
+    <div class="d-flex justify-content-center align-items-center flex-grow-1">
+        <form action="/submit" method="post" form-signin text-center bg-white p-4 rounded" style="opacity: 0.9; width: 40%;">
+            <h1 class="h3 mb-3 font-weight-normal">Before you find your dream car, tell us about yourself</h1>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" class="form-control" required autofocus>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" required>
+            </div>
+            <button class="btn btn-primary btn-block" type="button" onclick="redirectToLink()">Submit</button>
+        </form>
+    </div>
+    <a id="submitButtonLink" style="display: none;"></a>
+</div>
