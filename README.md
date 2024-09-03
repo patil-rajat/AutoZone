@@ -21,3 +21,7 @@ It is built using HTML, CSS, Bootstrap for the front end, and JavaScript, Embedd
 - **JavaScript**: For interactivity and client-side logic.
 - **Node.js**: For server-side logic.
 - **EmbeddedJS (EJS)**: For templating and rendering dynamic content.
+
+### Folder description
+- Public contains the HTML files, css and images.
+- Views contains the EJS files.
