@@ -22,7 +22,7 @@ app.use(express.json());
 // const connection = mysql.createConnection({
 //   host: 'localhost',
 //   user: 'root',
-//   password: 'Abcd@1234',
+//   password: 'xxxxxx',
 //   database: 'cars',
 // });
 
@@ -50,18 +50,6 @@ app.get("/", (req, res) => {
   });
   console.log('GET /home');
 });
-
-// app.get("/enquiry.html", (req, res) => {
-//     const enquiryPath = path.join(__dirname, "public", "enquiry.html");
-//     // res.sendFile(enquiryPath);
-//     res.render("toppicks.ejs", {
-//       homeLink,
-//       topPicksLink,
-//       buyLink,
-//       sellLink
-//   });
-//   console.log('GET /toppicks');
-// }); 
 
 app.get("/toppicks", (req, res) => {  
   res.render("toppicks.ejs", {
